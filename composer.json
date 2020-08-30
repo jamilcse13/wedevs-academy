@@ -1,0 +1,20 @@
+{
+    "name": "jamil/wedevs-academy",
+    "description": "A tutorial plugin for weDevs Academy",
+    "type": "wordpress-plugin",
+    "license": "GPLv2",
+    "authors": [
+        {
+            "name": "jamil",
+            "email": "jamil.cse13@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "WeDevs\\Academy\\": "includes/"
+        },
+        "files": []
+    }
+}

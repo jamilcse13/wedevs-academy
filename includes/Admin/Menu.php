@@ -46,5 +46,6 @@ class Menu {
     public function enqueue_assets()
     {
         wp_enqueue_style( 'academy-admin-style' );
+        wp_enqueue_script( 'academy-admin-script' );
     }
 }
